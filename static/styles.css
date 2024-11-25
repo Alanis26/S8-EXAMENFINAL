@@ -1,0 +1,135 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Fondo claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+
+.form-container, .menu {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+
+.menu button, .form-container button {
+    background-color: #8e44ad; /* Color morado para los botones */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.menu button:hover, .form-container button:hover {
+    background-color: #9b59b6; /* Morado más claro al pasar el cursor */
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50; /* Texto de los labels */
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+
+.form-container p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #16a085; /* Verde para los resultados */
+}
+
+.form-container h3 {
+    color: #e74c3c; /* Rojo para mensajes de error o de éxito */
+}
+
+
+.error {
+    color: #e74c3c; /* Rojo para error */
+    font-size: 18px;
+    text-align: center;
+}
+
+.success {
+    color: #27ae60; /* Verde para éxito */
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.error {
+    color: #e74c3c; /* Rojo para mensajes de error */
+    font-size: 18px;
+    text-align: center;
+}
+
+
+form label {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+form input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+
+
+.form-container p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #16a085;
+}
+
+.form-container h3 {
+    color: #e74c3c;
+}
+
+
+.error {
+    color: #e74c3c;  /* Rojo para mensajes de error */
+    font-size: 18px;
+    text-align: center;
+}
+
